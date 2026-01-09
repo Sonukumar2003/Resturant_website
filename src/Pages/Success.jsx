@@ -13,7 +13,8 @@ const Success = () => {
         if (prevCount === 1) {
           clearInterval(timeoutId);
           navigate("/");
-        }
+        } cd
+        
         return prevCount - 1;
       });
     }, 1000);
